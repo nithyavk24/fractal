@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>PROGRAMMING ASSIGNMENT 2</title>
+    
+</head>
+<body>
+    <header>
+            <h1>
+                COMPUTER GRAPHICS <br> PROGRAMMING ASSIGNMENT 2 </h1>
+    </header>
+    <form id="drawFractal" action="#">
+        <div>
+            <label>Select Ratio</label>
+            <select name="ratio" id="ratio" required>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div>
+            <label>Select Iteration</label>
+            <select name="iteration" id="iteration" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select><br>
+        </div>
+        <input type="submit" value="Draw Fractal"><br>
+        <form style="font-size:18px">
+            <input type="radio" id="color" name="color" value="black" checked>Black<br>
+            <input type="radio" id="color" name="color" value="red">Red<br>
+            <input type="radio" id="color" name="color" value="blue">Blue<br>
+            <input type="radio" id="color" name="color" value="yellow">Yellow<br>
+            <input type="radio" id="color" name="color" value="green">Green<br>
+            <input type="radio" id="color" name="color" value="orange">Orange<br>
+            <input type="radio" id="color" name="color" value="brown">Brown<br>
+        </form>
+    </form>
+    <div id="c-frame">
+            <canvas id="mycanvas" width="360" height="800">
+        
+            </canvas>
+    </div>
+   
+    <script src="./question1-b.js"></script>
+    
+</body>
+
+</html>
